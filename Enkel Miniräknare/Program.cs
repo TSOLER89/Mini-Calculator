@@ -46,5 +46,5 @@ class Program
     private static double Addition(double a, double b) => a + b;
     private static double Subtract(double a, double b) => a - b;
     private static double Multiply(double a, double b) => a * b;
-    private static double Divide(double a, double b) => b != 0 ? a / b : double.NaN;
+    private static double Divide(double a, double b) => a / b;
 }
